@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    /*display: flex;
+    align-items: center;
+    justify-content: space-evenly;*/
+}
+
+.danna{
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.darly{
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.salome{
+    background-color: pink;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.andres{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 0px;
+    top:0px;
+}
+
+.jose{
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 50%;
+    bottom:40%;
+}
