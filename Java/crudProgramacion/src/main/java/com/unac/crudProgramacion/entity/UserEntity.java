@@ -16,8 +16,11 @@ import java.util.Date;
 public class UserEntity implements Serializable {
     @Id
     @Column(name = "id_user")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer idUser;
     private String name;
+
+    @Column(unique = true)
     private String email;
     @Temporal(TemporalType.DATE)
     private Date birthdate;
